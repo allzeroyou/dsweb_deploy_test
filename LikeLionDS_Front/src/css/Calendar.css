@@ -1,0 +1,13 @@
+.cal-container {
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 90%;
+    /* display: inline-block; */
+  }
+
+  .fc-button {
+    border-color: #000 		!important;
+    background-color: #000 	!important;
+    color: #fff 				!important;
+    font-weight: bold 			!important;
+    }

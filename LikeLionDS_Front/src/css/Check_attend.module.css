@@ -1,0 +1,74 @@
+
+
+.chktitle {
+  font-family: 'paybooc-Bold';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  margin: 10px 40px 0px;
+  /* margin-top: 0; */
+  /* position: absolute; */
+  color: #000000;
+}
+
+.divider {
+  margin: 0em;
+  width: 80%;
+  left : 200px;
+  top: 135px;
+  position: absolute;
+}
+
+.choolchk {
+  font-family: 'paybooc-Bold';
+  /* font-family: 'paybooc-Bold' ; */
+  font-size: 14px;
+  display: inline;
+  font-stretch: expanded;
+  margin-top: 50px;
+  height: 40px;
+  color: #000000;
+
+}
+#speaker {
+  width: 20px;
+  height:20px;
+  display: inline;
+  /* left: 210px;
+  top: 143px;
+  position: absolute; */
+}
+
+
+.zandi {
+  background-color: #474F56;
+  width: 80%;
+  height: 50vh;
+  align-items: left;
+  /* position: absolute;
+  left: 210px;
+  top:200px; */
+}
+
+.dukrepo {
+  
+  align-items: left;
+  font-family: 'paybooc-Bold';
+  font-weight: bold;
+  font-size: 35px;
+  
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  width: auto;
+  height: 75vh;
+  margin-left: 50px;
+}

@@ -1,0 +1,156 @@
+.barBody {
+  background-color: #0d0d0d;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'paybooc-Bold';
+}
+
+.leftBar {
+  background-color: #0d0d0d;
+  margin-left: 30px;
+  margin-right: 20px;
+  width: 90px;
+  height: 90vh;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightContent {
+  background-color: #ffffff;
+  flex-grow: 1;
+  height: 90vh;
+  margin-right: 30px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  padding: 10px;
+  overflow: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.rightContent::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+
+.rightContent #homeImgdiv {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#logoutImgdiv {
+  margin-bottom: 20px;
+}
+
+ul#menubar > li {
+  margin-bottom: 50px;
+}
+
+.burger {
+  display: none;
+}
+
+.burger li {
+  color: rgb(226, 226, 226);
+  font-size: smaller;
+  margin: 0px 10px 30px 10px;
+  text-align: center;
+}
+
+.burger a {
+  text-decoration: none;
+}
+
+.clicked {
+  color: rgb(226, 226, 226);
+}
+
+.clicked:hover {
+  color: #f2921d;
+}
+
+@media (max-height: 700px) {
+  #menubar {
+    display: none;
+  }
+
+  .burger {
+    display: inline-block;
+  }
+}
+
+@media (max-height: 400px) {
+  #menubar {
+    display: none;
+  }
+
+  .burger {
+    display: none;
+  }
+}
+
+.mypageLi {
+  display: inline-block;
+  background-image: url('../img/calender_button.png');
+  width: 40px;
+  height: 40px;
+}
+
+.checkLi {
+  display: inline-block;
+  background-image: url('../img/history_button.png');
+  width: 35px;
+  height: 35px;
+}
+
+.studyLi {
+  display: inline-block;
+  background-image: url('../img/study_button.png');
+  width: 40px;
+  height: 40px;
+}
+
+.codelionLi {
+  background-image: url('../img/codelion_button.png');
+  width: 40px;
+  height: 40px;
+}
+
+.logoutLi {
+  background-image: url('../img/logout_button.png');
+  width: 40px;
+  height: 40px;
+}
+
+.mypageLi:hover {
+  background-image: url('../img/calendar_hover.png');
+}
+
+.checkLi:hover {
+  background-image: url('../img/history_hover.png');
+}
+
+.studyLi:hover {
+  background-image: url('../img/click_study_button.png');
+}
+
+.codelionLi:hover {
+  background-image: url('../img/click_codelion_button.png');
+}
+
+.logoutLi:hover {
+  background-image: url('../img/click_logout_button.png');
+}
