@@ -48,9 +48,12 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+    "eslint.workingDirectories": [
+      { "mode": "auto" }
+  ],
     "extends": [
-      "react-app"
-        ]
+      "react-app"    
+    ]
   },
   "browserslist": {
     "production": [
